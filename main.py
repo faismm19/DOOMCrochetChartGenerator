@@ -5,7 +5,7 @@ width, height = 16, 5098
 box_size = 10
 
 # Open the input file and read the contents
-with open('/Users/mackenziefaison/PycharmProjects/pythonProject3/binary.txt', 'r') as f:
+with open('binary.txt', 'r') as f:
     file_contents = f.read().replace(' ', '')
 
 # Create a new image and drawing object
